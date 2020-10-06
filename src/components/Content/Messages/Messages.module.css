@@ -1,0 +1,47 @@
+.grid {
+    display: grid;
+    grid-template-areas: 'dialogs messages';
+    grid-template-columns: 3fr 6fr;
+    grid-gap: 10px;
+    background-color: #ffffff;
+    height: 590px;
+}
+
+.dialogs {
+    grid-area: 'dialogs';
+    border-right: 1px solid rgba(196, 196, 196, 0.5);
+}
+
+.messages {
+    grid-area: 'messages';
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: scroll;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+}
+
+.textarea {
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px 20px;
+    height: 35px;
+    background: rgba(244, 244, 244, 0.7);
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.02);
+}
+
+.button {
+    width: 30%;
+    height: 35px;
+}

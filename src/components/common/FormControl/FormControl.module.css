@@ -1,0 +1,15 @@
+.control {
+    position: relative;
+}
+
+.control.error textarea,
+.control.error input {
+    border: 2px solid red;
+}
+
+.control.error span {
+    position: absolute;
+    bottom: -15px;
+    left: 3px;
+    color: red;
+}

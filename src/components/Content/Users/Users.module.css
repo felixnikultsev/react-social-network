@@ -1,0 +1,64 @@
+.users {
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #ffffff;
+    min-height: 590px;
+}
+
+.item {
+    margin-bottom: 30px;
+    padding: 10px;
+    background: rgba(244, 244, 244, 0.5);
+    border-bottom: 1px solid rgba(196, 196, 196, 0.5);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.desc {
+    margin-top: 5px;
+}
+
+.name {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.location {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.status {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 120px;
+}
+
+.link {
+    margin-left: 15px;
+    font-style: italic;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}

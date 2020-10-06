@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+    background: rgba(0, 155, 183, 0.9);
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button:disabled {
+    background: rgba(0, 155, 183, 0.5);
+    cursor: default;
 }
 
-.App-link {
-  color: #61dafb;
+.button:disabled:hover {
+    background: rgba(0, 155, 183, 0.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:hover {
+    background: rgba(0, 155, 183, 1);
+    transition: all 0.2s ease-in;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 'nav content';
+    grid-template-columns: 3fr 9fr;
+    grid-gap: 10px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
 }

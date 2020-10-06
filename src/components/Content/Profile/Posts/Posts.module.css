@@ -1,0 +1,39 @@
+.posts {
+    padding: 20px 40px;
+    background-color: #ffffff;
+}
+
+.posts__title {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.posts__textarea {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px;
+    height: 100px;
+    background: rgba(244, 244, 244, 0.5);
+    border: none;
+    outline: none;
+    resize: none;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.02);
+}
+
+.posts__textarea::placeholder {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.posts__button {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.posts-block {
+    margin-top: 30px;
+}

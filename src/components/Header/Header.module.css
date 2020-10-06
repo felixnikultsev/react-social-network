@@ -1,0 +1,43 @@
+.header {
+    margin-bottom: 20px;
+    padding: 24px 0;
+    background-color: #009bb7;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}  
+  
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+  
+.logo span {
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #00d8ff;
+}
+
+.login {
+  color: #ffffff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.login a {
+  color: #ffffff;
+  text-decoration: none;
+}

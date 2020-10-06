@@ -1,0 +1,38 @@
+.profile-info {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.profile-info__name {
+    margin: 0;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.profile-info__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.profile-info__item i {
+    text-transform: initial;
+}
+
+.profile-info__item i,
+.profile-info__item span {
+    margin-left: 10px;
+    font-weight: 300;
+    color: #cccccc;
+}
+
+.profile-info__button {
+    display: block;
+    margin-top: 20px;
+    width: 70px;
+    height: 25px;
+    font-size: 15px;
+}

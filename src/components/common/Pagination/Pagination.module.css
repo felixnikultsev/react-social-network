@@ -1,0 +1,33 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.number {
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.number_active {
+    font-weight: 700;
+}
+
+.prev,
+.next {
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid #000;
+}
+
+.prev {
+    transform: rotate(-45deg);
+    border-left: 2px solid #000;
+}
+
+.next {
+    transform: rotate(45deg);
+    border-right: 2px solid #000;
+}
